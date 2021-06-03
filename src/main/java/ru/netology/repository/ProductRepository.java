@@ -9,7 +9,8 @@ public class ProductRepository {
             new Book(1, "Little Women", 100, "Louisa May Alcott"),
             new Book(2, "The Adventures of Sherlock Holmes", 200, "A. Conan Doyle"),
             new Smartphone(3, "A53", 500, "Samsung"),
-            new Smartphone(4, "iPhone XR", 1000, "Apple")
+            new Smartphone(4, "iPhone XR", 1000, "Apple"),
+            new Smartphone(5, "iPhone 6", 300, "Apple")
     };
     public void save(Product item) {
         int length = items.length + 1;
